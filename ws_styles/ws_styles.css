@@ -1,5 +1,22 @@
 @charset "utf-8";
 
-/* */
+/* Body Styles */
+html {
+    background-color: deepskyblue;
+}
 
-/* */
+body {
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Heading Styles */
+
+/* Navigation Styles */
+
+/* Link Styles */
+
+/* List Styles */
+
+/* General Style: background, color, margin, padding */
+/* Font Styles */
