@@ -19,6 +19,8 @@ h1 {
 h2 {
     font-size: 1.5em;
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkviolet;
 }
 
 /* Navigation Styles */
@@ -32,19 +34,23 @@ nav > ul {
     padding-left: 10px;
 }
 
-nav > ul > a:link, nav > ul > a:visited {
+nav > ul > li > a:link, nav > ul > li > a:visited {
     color: cornflowerblue;
     text-decoration: none;
 }
 
-nav > ul > a:hover, nav > ul > a:active {
+nav > ul > li > a:hover, nav > ul > li > a:active {
     color: darkmagenta;
     text-decoration: underline;
 }
 
-/* Link Styles */
+/* Aside Styles */
 
-/* List Styles */
+/* Blockquote Styles */
+blockquote {
+    background-color: lightskyblue;
+    margin: 10px;
+}
 
 /* Footer Styles */
 footer {
@@ -54,6 +60,5 @@ footer {
     font-variant-caps: small-caps;
     text-align: center;
     font-size: 0.8em;
+    line-height: 2em;
 }
-
-/* General Style: background, color, margin, padding */
