@@ -2,21 +2,58 @@
 
 /* Body Styles */
 html {
-    background-color: deepskyblue;
+    background-color:darkcyan;
 }
 
 body {
     background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Heading Styles */
+h1 {
+    font-size: 2.2em;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
 
 /* Navigation Styles */
+nav {
+    font-size: 0.8em;
+}
+
+nav > ul {
+    line-height: 1.8em;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+nav > ul > a:link, nav > ul > a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+nav > ul > a:hover, nav > ul > a:active {
+    color: darkmagenta;
+    text-decoration: underline;
+}
 
 /* Link Styles */
 
 /* List Styles */
 
+/* Footer Styles */
+footer {
+    background-color: darkorchid;
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+    font-variant-caps: small-caps;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 /* General Style: background, color, margin, padding */
-/* Font Styles */
