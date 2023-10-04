@@ -16,10 +16,14 @@ img {
 }
 
 /* Horizontal Navigation Styles */
-nav.horizontal {
+nav.horizontal > li {
    display: block;
    float: left;
    width: 16.66%;
+}
+
+nav > li {
+   display: block;
 }
 
 /* Row Styles */
