@@ -11,6 +11,16 @@ body {
 }
 
 /* Heading Styles */
+header {
+    text-align: center;
+    text-decoration: none;
+}
+
+header.mh {
+    font-size: 2em;
+    color: darkmagenta;
+}
+
 h1 {
     font-size: 2.2em;
     font-family: cursive;
