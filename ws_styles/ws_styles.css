@@ -23,6 +23,12 @@ h2 {
     color: darkviolet;
 }
 
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: pink;
+}
+
 /* Navigation Styles */
 nav {
     font-size: 0.8em;
