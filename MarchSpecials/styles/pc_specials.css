@@ -16,7 +16,7 @@ img {
 }
 
 /* Horizontal Navigation Styles */
-nav#horizontal {
+nav.horizontal {
    display: block;
    float: left;
    width: 16.66%;
