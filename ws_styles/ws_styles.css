@@ -14,6 +14,7 @@ body {
 h1 {
     font-size: 2.2em;
     font-family: cursive;
+    text-align: center;
 }
 
 h2 {
@@ -21,12 +22,6 @@ h2 {
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: darkviolet;
-}
-
-/* Link Styles */
-a {
-    text-decoration: none;
-    color: pink;
 }
 
 /* Navigation Styles */
@@ -53,7 +48,19 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 /* Blockquote Styles */
 blockquote {
     background-color: lightskyblue;
-    margin: 10px;
+    margin: 20px;
+}
+
+blockquote > img {
+    display: block;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+blockquote > a {
+    text-decoration: none;
+    color: pink;
 }
 
 /* Footer Styles */
