@@ -16,18 +16,21 @@ img {
 }
 
 /* Horizontal Navigation Styles */
-nav.horizontal > li {
+nav.horizontal li {
    display: block;
    float: left;
    width: 16.66%;
 }
 
-nav > li {
+nav a {
    display: block;
 }
 
 /* Row Styles */
-
+div.newRow {
+   clear: both;
+   width: 100%;
+}
 
 /* Column Styles */
 
