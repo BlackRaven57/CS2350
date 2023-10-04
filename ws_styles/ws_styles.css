@@ -49,6 +49,7 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 blockquote {
     background-color: lightskyblue;
     margin: 20px;
+    text-align: center;
 }
 
 blockquote > img {
