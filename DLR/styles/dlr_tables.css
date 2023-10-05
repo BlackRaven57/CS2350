@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+table.schedule {
+    background-color: white;
+    border: 10px outset rgb(153, 0, 153);
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 100%;
+}
+
+table.schedule th, table.schedule td {
+    border: 1px solid grey;
+}
+
+table.schedule caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+table.schedule thead {
+    background-color: rgb(153, 0, 153);
+    color: white;
+}
+
+table.schedule tfoot {
+    background-color: black;
+    color: white;
+}
+
+col#firstCol {
+    background-color: rgb(218, 210, 218);
+}
+
+col#dayCols {
+    background-color: rgb(255, 220, 255);
+}

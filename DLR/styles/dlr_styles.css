@@ -1,16 +1,6 @@
 @charset "utf-8";
 
-/*
-
-   DLR General Style Sheet
-  
-   Filename:         dlr_styles.css
-
-*/
-
-
 /* HTML and Body styles */
-
 html {
    background: url(../images/dlr_back.png), rgb(165, 146, 165);
    font-family: Verdana, Geneva, sans-serif;
@@ -30,7 +20,6 @@ body {
 }
 
 /* Flex Layout */
-
 body {
    display: -webkit-flex;
    display: flex;
@@ -49,7 +38,6 @@ div#container {
 }
 
 /* Header styles */
-
 header {
    background-color: rgb(218, 210, 218);
    border-bottom: 1px solid rgb(153, 0, 153);
@@ -69,7 +57,6 @@ header h1 em {
 }
 
 /* Navigation list styles */
-
 header nav ul li {
    background-color: rgb(218, 210, 218);
    font-size: 0.8em;   
@@ -92,7 +79,6 @@ a#navicon {
 }
 
 /* Container Styles */
-
 div#container {
    background: rgb(248, 248, 210);
 
@@ -100,7 +86,6 @@ div#container {
 
 
 /* Main Section styles */
-
 section#main {
    padding: 10px 20px 0px 20px;
 }
@@ -124,7 +109,6 @@ section#main p {
 }
 
 /* Right Section styles */
-
 section#right {
    padding: 0px 15px 0px 15px;
 }
@@ -180,7 +164,6 @@ aside#future {
 }
 
 /* Footer styles */   
-
 footer {
    color: white;    
    background: linear-gradient(to right, rgb(153, 0, 153) 30%, black);   
@@ -194,10 +177,8 @@ footer {
 
 /* ===============================
    Mobile Styles: 0px to 640px 
-   ===============================
-*/
+   ===============================*/
 @media only screen and (max-width: 640px) {
-
    section#main {
       width: 100%;
    }
@@ -227,10 +208,8 @@ footer {
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
-   =============================================
-*/
+   =============================================*/
 @media only screen and (min-width: 641px) {
-
    section#main {
       float: left;
       width: 70%;
