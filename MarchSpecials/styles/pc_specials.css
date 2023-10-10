@@ -78,15 +78,15 @@ div.specials {
 }
 
 /* Award Styles */
-div.awardList {
+div#awardList {
    position: relative;
    overflow: auto;
-   width: 100%;
    height: 650px;
 }
 
 div.awards {
    position: absolute;
+   width: 30%;
 }
 
 div#award1 {
