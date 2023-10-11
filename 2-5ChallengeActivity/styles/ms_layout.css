@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+html {
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border: 12px outset darkcyan;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table tr {
+    height: 40px;
+}
+
+table th, table td {
+    border: 2px solid darkcyan;
+    vertical-align: top;
+    text-align: center;
+}
+
+table th {
+    vertical-align: middle
+}
+
+col.time {
+    background-color: cadetblue;
+}
+
+col.weekday, col.weekend {
+    width: 13.2%;
+    background-color: paleturquoise;
+}
+
+table thead {
+    background-color: darkturquoise;
+}
+
+table tfoot {
+    background-color: darkblue;
+    color: palegreen;
+    vertical-align: middle;
+}
+
+table caption {
+    caption-side: bottom;
+}

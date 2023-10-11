@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html {
+    background-color: rgb(230, 230, 230);
+}
+
+body {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20;
+    width: 100%;
+    max-width: 1480px;
+	min-width: 640px;
+}
+
+body > header {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: darkolivegreen;
+}
+
+h2 {
+    font-size: 3em;
+    color: darkolivegreen;
+}
+
+article {
+    line-height: 150%;
+    font-size: 1.8em;
+}
+
+article img.onei {
+    width: 60%;
+    float: left;
+    margin: 0 10px 20px 15px;
+}
+
+article p.one {
+    width: auto;
+    margin: 0 10px 0 40px;
+}
+
+article h2 {
+    clear: both;
+}
+
+article img.twoi {
+    width: 30%;
+    float: right;
+    margin: 0 30px 0 20px;
+}
+
+article p.two {
+    width: 35%;
+    float: right;
+    text-align: right;
+}
+
+article img.threei {
+    width: 29%;
+    float: right;
+    margin: 0 20px 20px 10px;
+}
+
+article p.three {
+    clear: both;
+    width: 100%;
+    margin: 15px 0 0 15px;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: darkolivegreen;
+    text-align: center;
+    line-height: 40%;
+}
+
+aside {
+    color: darkgreen;
+    font-size: 2em;
+}
+
+aside ul li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 200%;
+}

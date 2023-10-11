@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+    font-family: cursive;
+    margin: 15px 15px 5px 15px;
+    width: 100%;
+    max-width: 1470px;
+	min-width: 640px;
+}
+
+body > header {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5em;
+    line-height: 5px;
+    font-variant: small-caps;
+    color: darkmagenta;
+    text-align: center;
+}
+
+article {
+    line-height: 150%;
+    font-size: 1.8em;
+}
+
+article img.onei {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 70%;
+}
+
+article p.one {
+    width: auto;
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+
+h2 {
+    font-size: 3em;
+    color: magenta;
+    text-align: center;
+}
+article img.twoi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 20%;
+}
+
+article p.two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+article img.threei {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 20%;
+}
+
+article p.three {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: darkorchid;
+    line-height: 40%;
+}
+
+aside ul li {
+    text-decoration: underline;
+    list-style-type: circle;
+    text-align: left;
+    line-height: 200%;
+    color: peachpuff;
+    font-size: 1.5em;
+}
