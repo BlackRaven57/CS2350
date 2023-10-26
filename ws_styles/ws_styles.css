@@ -6,8 +6,10 @@ html {
 }
 
 body {
-    background-color: aliceblue;
+    background: linear-gradient(aliceblue, plum, pink) ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 10px 0px 45px,
+    -10px 0px 45px;
 }
 
 /* Heading Styles */
@@ -25,6 +27,7 @@ h1 {
     font-size: 2.2em;
     font-family: cursive;
     text-align: center;
+    text-shadow: grey 2px 2px 10px;
 }
 
 h2 a {
@@ -58,8 +61,10 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 /* Blockquote Styles */
 blockquote {
     background-color: lightskyblue;
-    margin: 20px;
+    margin: 30px 100px;
     text-align: center;
+    box-shadow: 10px 10px;
+    padding: 5px;
 }
 
 blockquote > img {
@@ -67,6 +72,7 @@ blockquote > img {
     width: 25%;
     margin-right: auto;
     margin-left: auto;
+    border: 2px double darkblue;
 }
 
 blockquote > a {
