@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <!--
-
-
-    Filename: tb_ferris.html
-   -->
-   
+<head> 
    <meta charset="utf-8" />
    <title>Tree and Book: The Ferris Family</title>
+   <link rel="stylesheet" href="styles/tb_base.css">
+   <link rel="stylesheet" href="styles/tb_styles3.css">
+   <link rel="stylesheet" href="styles/tb_visual3.css">
 </head>
 
 <body>
@@ -28,6 +25,14 @@
    <main>
       <header>
          <h1>The Ferris Family</h1>
+         <figure>
+            <img src="images/tb_ferris.png" alt="Ferris Family" usemap="#portrait_map">
+            <figcaption>Kathleen Ferris and daughter Linda (1957).</figcaption>
+         </figure>
+         <map name="portrait_map">
+            <area shape="rect" coords="10, 50, 192, 223" href="tb_kathleen.html" alt="Kathleen Ferris">
+            <area shape="circle" coords="262, 108, 80" href="tb_linda.html" alt="Linda Ferris-White">
+         </map>
       </header>
       
       <article>
