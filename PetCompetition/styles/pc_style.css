@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+html {
+    background: indigo;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+ 
+body {
+    background-color: white;
+    box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px;
+    border-left: 3px solid purple;
+    border-right: 3px solid purple;
+    min-height: 100%;  
+    margin: 0px auto;
+    min-width: 300px;
+    max-width: 1020px;  
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+}
+
+article {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+fieldset {
+    margin: 15px auto;
+    background-color: lavender;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+fieldset div {
+    padding: 10px;
+}
+
+div img {
+    width: 40%;
+    margin: 0px 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px;
+    background-color: blueviolet;
+    width: 20%;
+    font-variant: small-caps;
+}
+
+input#cName:focus:valid, input#phone:focus:valid, input#mail:focus:valid {
+    background-color: rgb(220, 255, 220);
+}
+  
+input#cName:focus:invalid, input#phone:focus:invalid, input#mail:focus:invalid {
+    background-color: rgb(255, 232, 233);
+}
