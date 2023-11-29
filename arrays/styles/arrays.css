@@ -1,0 +1,107 @@
+/*Add borders around the sections and the table cells
+Add some shadows
+Add additional style to make the web page look a little nicer*/
+
+@charset "utf-8";
+
+html {
+    background: darkslateblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+ 
+body {
+    background-color: white;
+    box-shadow: rgb(51, 51, 51) 20px 0px 40px,  rgb(51, 51, 51) -20px 0px 40px;
+    border-left: 6px solid darkslategray;
+    border-right: 6px solid darkslategray;
+    min-height: 100%; 
+    margin: auto;
+    min-width: 300px;
+    max-width: 1020px;  
+    width: 100%;
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: indigo;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 1.6em;
+    color: rebeccapurple;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+section {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+section#fam {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 12px double midnightblue;
+    border-collapse: collapse;
+}
+
+table tr {
+    height: 30px;
+}
+
+table th, table td {
+    border: 3px solid midnightblue;
+    vertical-align: center;
+    text-align: center;
+}
+
+table th {
+    background-color: darkslategray;
+    color: white;
+}
+
+section#color {
+    margin: 2px 40px;
+    background-color: slateblue;
+    padding: 10px 40px;
+}
+
+section#color h2 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+section#sort {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    clear: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;  
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+    padding: 2px 0px;
+    line-height: 0.7em;
+}
