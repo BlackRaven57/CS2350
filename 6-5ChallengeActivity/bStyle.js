@@ -9,7 +9,6 @@ var books = [{title: "The Hunger Games", author: "Suzanne Collins", alreadyRead:
 // <h1> section of your webpage. The entire table (including replacing any true/false text with actual images like in the example) 
 // and styling should be generated and outputted with JavaScript
 var table = document.createElement("table");
-table.style.width = "200px";
 table.style.border = "5px solid grey";
 table.style.width = "70%";
 table.style.fontFamily = "Georgia, serif";
